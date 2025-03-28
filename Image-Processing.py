@@ -21,3 +21,7 @@ else:
    
     print("Shape:", img_arr.shape)
     print("NumPy Array:\n", img_arr)
+
+
+image.save("grayscale_output.jpg")
+files.download("grayscale_output.jpg") 
